@@ -1,0 +1,770 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+* {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden !important;
+    cursor: pointer;
+}
+
+
+/********************** nav **********************/
+
+nav {
+    background-color: #E7464E;
+    padding-top: 10px;
+    /*background-color: black;*/
+}
+
+nav .logo {
+    float: right;
+}
+
+nav button {
+    margin-top: 15px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    border: transparent !important;
+    background-color: #FFFFFF !important;
+    color: #E7464E;
+}
+
+nav img {
+    width: 80px;
+    height: 80px;
+    border: 50%;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav li.active,
+nav li:hover {
+    border-bottom: 2px solid yellow !important;
+}
+
+nav ul {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 15%;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none !important;
+    color: #ffff !important;
+}
+
+header .container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    max-width: 1400px !important;
+}
+
+
+/**************************Header********************************/
+
+header {
+    background-image: url(img/Background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 752px;
+    overflow: hidden;
+    /*padding-top: 100px;*/
+}
+
+header .logo {
+    overflow: hidden;
+}
+
+header .logo img {
+    display: block;
+}
+
+header h4 {
+    font-size: 38px;
+    color: #ffff;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif !important;
+    line-height: 1.8;
+}
+
+header .text {
+    margin-top: 120px;
+    width: 213px;
+    margin-left: 35%;
+}
+
+header button {
+    margin-left: 25%;
+    border-radius: 20px;
+    padding: 5px 15px;
+    border: transparent !important;
+    color: #E7464E;
+    margin-top: 50px;
+}
+
+
+/*********************.Our-services ****************************/
+
+.Our-services {
+    margin-top: 100px;
+}
+
+.Our-services .section {
+    padding: 40px 0px;
+    border-radius: 20px;
+    text-align: center;
+    width: 99.99%;
+    height: 300px;
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+    box-shadow: 5px 10px 18px #888888;
+    margin: 0px;
+}
+
+.Our-services h6 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.Our-services p {
+    width: 60%;
+    margin: 0px auto;
+}
+
+.Our-services img {
+    z-index: 111;
+    width: 27px;
+    height: 33px;
+    margin-top: 4px;
+}
+
+.Our-services .circle {
+    border-radius: 50%;
+    width: 50px;
+    background-color: #FCE7E8;
+    margin: 0px auto;
+    height: 40px;
+}
+
+.Our-services .circle {
+    border-radius: 50%;
+    width: 50px;
+    background-color: #FFF9E6;
+    margin: 0px auto;
+    height: 40px;
+}
+
+.color2 {
+    background-color: #FFF9E6;
+}
+
+
+/********************Description-of-services ************************/
+
+.Description-of-services {
+    margin: 10px 0px 100px 0px;
+}
+
+.Description-of-services .images img {
+    margin-top: 177px;
+}
+
+.Description-of-services .text {
+    margin-top: 120px;
+    text-align: right;
+}
+
+.Description-of-services .text img:first-child {
+    width: 80px;
+    height: 80px;
+    margin-right: 10%;
+}
+
+.Description-of-services h2 {
+    width: 55%;
+    margin: 0px 34%;
+    margin-bottom: 20px;
+}
+
+.Description-of-services p {
+    width: 87%;
+    margin-left: 2%;
+}
+
+.Description-of-services .text :nth-child(2) {
+    margin-top: 20px;
+}
+
+.Description-of-services .text .list p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.Description-of-services .text .list {
+    padding-right: 57px;
+    padding-top: 10px;
+}
+
+.Description-of-services .text .list img {
+    margin-left: 5px;
+    margin-top: 1px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+
+/*******************Our-Services-Section********************************/
+
+.Our-Services-Section {
+    background-color: #FDD23E;
+    position: relative;
+    padding-bottom: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Our-Services-Section .description {
+    text-align: right;
+    margin-top: 40px;
+    position: absolute;
+    right: 42%;
+    top: 11px;
+}
+
+.Our-Services-Section .description p {
+    margin: 0px;
+    font-size: 14px;
+    text-align: right !important;
+    width: 62%;
+    margin-left: 37%;
+    color: #ffff;
+}
+
+.Our-Services-Section .description h1 {
+    color: #E7464E;
+}
+
+.Our-Services-Section .images img {
+    margin-top: -101px !important;
+}
+
+
+/********************features *******************************/
+
+.features {
+    margin: 55px 0px;
+    /*background-color: #FDD23E;*/
+}
+
+.features img {
+    margin-bottom: 20px;
+}
+
+.features .description .feature {
+    margin: 30px 0px;
+}
+
+.features .description {
+    margin-top: 0px;
+    text-align: right;
+}
+
+.features .description h1 {
+    margin: 10px 0px;
+}
+
+.features .description .feature h6 {
+    display: inline-block;
+}
+
+.features .description .feature img {
+    display: inline-block;
+    margin-left: 18px;
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+}
+
+.features .images {
+    margin: 45px 0px;
+}
+
+
+/******************Download-App*********************************/
+
+.Download-App {
+    background-image: url(img/backgroundapp.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    /*padding-top: 100px;*/
+}
+
+.Download-App .images img {
+    height: 444px;
+}
+
+.Download-App .description {
+    color: #ffff;
+    text-align: right;
+    padding: 15% 13% 0% 13%;
+}
+
+.Download-App .description p {
+    margin-top: 20px;
+}
+
+.Download-App .description img {
+    margin-top: 20px;
+}
+
+
+/*//////.Any-Questions  ///*/
+
+.Any-Questions {
+    margin-top: 150px;
+}
+
+.Any-Questions .description {
+    text-align: right;
+    margin-top: 0px;
+}
+
+.Any-Questions .description img {
+    width: 10%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.Any-Questions .description h2,
+.Any-Questions .description h1 {
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.Any-Questions .description h2 {
+    color: #E7464E;
+    font-size: 15px;
+}
+
+.Any-Questions .description p {
+    padding-left: 36%;
+    margin: 15px 0px;
+    /* background-color: #FDD23E;*/
+    font-size: 15px;
+}
+
+.Any-Questions .images {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.Any-Questions .images img {
+    width: 50%;
+    height: auto;
+    margin: 0% 25%;
+}
+
+.Contact-us {
+    margin-top: 150px;
+    background-color: #F6F6F9;
+    padding: 60px 0px;
+}
+
+.Contact-us .images {
+    width: 80%;
+}
+
+.Contact-us textarea {
+    margin-top: 0px;
+}
+
+.Contact-us .description h1 {
+    text-align: right !important;
+    margin-right: 20%;
+    color: #E7464E;
+    font-size: 30px;
+}
+
+.Contact-us .description label {
+    text-align: right !important;
+    display: block;
+    margin-right: 20%;
+    margin-top: 20px;
+}
+
+.Contact-us .description ::placeholder {
+    text-align: right !important;
+    display: block;
+    margin-right: 0%;
+}
+
+.Contact-us textarea,
+.Contact-us input {
+    width: 80%;
+}
+
+.Contact-us .description button {
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #E7464E;
+    color: #ffff;
+    border-color: transparent;
+    display: block;
+    margin: 30px 53%;
+}
+
+
+/************ footer *******/
+
+footer {
+    margin: 0px;
+    padding: 0px;
+    background-color: 000000;
+    color: #ffff;
+    position: relative;
+    text-align: center;
+}
+
+footer p {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    left: 44%;
+    top: 44px;
+    font-size: 13px;
+}
+
+@media (min-width: 770px) and (max-width: 767px) {
+    .Our-services .section {
+        padding: 18px 0px;
+    }
+}
+
+@media (min-width: 770px) and (max-width:991px) {
+    footer p {
+        left: 40% !important;
+        top: 48px;
+    }
+    .Contact-us .description button {
+        margin: 30px 36% !important;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1199px) {
+    footer p {
+        left: 42%;
+        top: 48px;
+    }
+    .Description-of-services .text img:first-child {
+        width: 80px;
+        height: 80px;
+        margin-right: 5%;
+    }
+    .Description-of-services {
+        margin: 65px 0px 100px 0px;
+    }
+    .Description-of-services .text {
+        margin-top: 0px;
+        text-align: right;
+    }
+    .Description-of-services .images img {
+        margin-top: 20px;
+    }
+    .Description-of-services .text .list {
+        padding-right: 36px;
+        padding-top: 10px;
+    }
+    .Description-of-services h2 {
+        width: 88%;
+        margin: 0px 6%;
+        margin-bottom: 20px;
+    }
+    .Description-of-services p {
+        width: 92%;
+        margin-left: 2%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .Description-of-services .text .list {
+        padding-right: 25px;
+        padding-top: 10px;
+    }
+    .text img:first-child {
+        width: 80px;
+        height: 80px;
+        margin-right: 5% !important;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media (min-width: 576px) and (max-width: 1199px) {
+    .Our-Services-Section .images img {
+        margin-top: 0px !important;
+    }
+    .Our-Services-Section .description {
+        margin-top: 40px;
+    }
+    .Our-Services-Section .description p {
+        margin: 0px;
+        font-size: 14px;
+        text-align: right !important;
+        width: 78%;
+        margin: 0px 22%;
+    }
+}
+
+@media (max-width: 767px) {
+    header .text {
+        margin-top: 120px;
+        width: 213px;
+    }
+    header .text {
+        margin-top: 0px;
+    }
+    nav li {
+        display: inline;
+        padding: 0px;
+    }
+    nav li {
+        display: inline;
+        padding: 0px;
+        margin: 0px;
+        background-color: black;
+        text-align: center;
+    }
+    nav li:hover {
+        background-color: red;
+    }
+    .Contact-us .description button {
+        margin: 30px 65% !important;
+    }
+    .navbar-toggler {
+        margin-top: 50px;
+    }
+    footer p {
+        left: 38%;
+        top: 48px;
+        font-size: 12px;
+    }
+    .Description-of-services .text img:first-child {
+        width: 80px;
+        height: 80px;
+        margin-right: 5%;
+    }
+    .Description-of-services h2 {
+        width: 94%;
+        text-align: right;
+        margin: 20px 0%;
+    }
+    .Description-of-services p {
+        width: 94%;
+        margin-left: 0%;
+        text-align: right;
+    }
+    .Description-of-services .text .list {
+        padding-right: 19px;
+        padding-top: 10px;
+    }
+    .Our-Services-Section .description h1 {
+        margin-top: 20px;
+    }
+    .Our-Services-Section .description {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .Our-Services-Section .images img {
+        margin-top: -59px !important;
+        width: 80%;
+    }
+    .Our-Services-Section .description p {
+        margin: 20px 0px;
+        font-size: 14px;
+        width: 62%;
+        margin-left: 21%;
+        color: #ffff;
+        text-align: center !important;
+        margin-left: 17%;
+    }
+    .Download-App .description {
+        color: #ffff;
+        text-align: center;
+        padding: 0% 13% 10% 13%;
+    }
+    .Download-App .images img {
+        height: 339px;
+    }
+    .Any-Questions .images img {
+        width: 40%;
+        height: auto;
+        margin: 0% 25%;
+    }
+    .Any-Questions .images {
+        text-align: center;
+        padding-top: 16px;
+    }
+}
+
+@media (max-width: 575px) {
+    header .text {
+        margin-left: 24%;
+    }
+    .Our-services .circle {
+        margin-top: 32px;
+    }
+    footer p {
+        left: 35%;
+        top: 48px;
+        font-size: 12px;
+    }
+    .Description-of-services .text img:first-child {
+        width: 80px;
+        height: 80px;
+        margin-right: 0%;
+    }
+    .Our-services .section {
+        padding: 18px 0px;
+    }
+    .Our-services .section {
+        width: 63.99%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .Description-of-services h2 {
+        width: 92%;
+        margin: 20px 0%;
+    }
+    .Description-of-services .text {
+        margin-top: 120px;
+        text-align: center;
+    }
+    .Description-of-services .text .list p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: inline-block;
+        text-align: right;
+    }
+    .Description-of-services .text {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .Description-of-services .images img {
+        margin-top: 20px;
+    }
+    .Contact-us .description h1 {
+        text-align: center!important;
+        margin-right: 0%;
+        color: #E7464E;
+        font-size: 30px;
+    }
+    .Contact-us .description label {
+        text-align: right !important;
+        display: block;
+        margin-right: 2%;
+        margin-top: 20px;
+    }
+    .Contact-us textarea,
+    .Contact-us input {
+        width: 98%;
+    }
+    .Contact-us textarea,
+    .Contact-us input {
+        width: 98%;
+    }
+    .Contact-us .description button {
+        margin: 30px 65%;
+    }
+    .Contact-us .images {
+        width: 66%;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 1212px) {
+    .Our-Services-Section .description,
+    .Our-services .section {
+        position: static !important;
+        right: 0%;
+        top: 0px;
+    }
+    .Our-Services-Section .description {
+        margin-top: 0px;
+    }
+    .Contact-us .description button {
+        margin: 30px 48%;
+    }
+}
+
+.navbar-expand-lg {
+    margin: 0px;
+    padding: 0px;
+    color: #ffff !important;
+    height: 34px;
+}
+
+
+/*       ScrollBar 2        */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    border: 1px solid #cacaca;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #363636;
+}
+
+.scrollbar {
+    height: 300px;
+    width: 50%;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+@media (min-width: 1300px) {
+    .Description-of-services img.Icon-store {
+        margin-right: 41px !important;
+    }
+}
+
+.arrow-up img {
+    cursor: pointer;
+    background-color: transparent !important;
+    color: #ffff;
+    position: fixed;
+    bottom: 120px;
+    right: 20px;
+}
+
+.arrow-up {
+    display: none;
+}
