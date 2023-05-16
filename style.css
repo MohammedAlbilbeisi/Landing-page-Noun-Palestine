@@ -546,6 +546,10 @@ footer p {
     .Contact-us {
         overflow-x: hidden !important;
     }
+    .features {
+        margin: 100px 0px;
+        /*background-color: #FDD23E;*/
+    }
     header .text {
         margin-top: 120px;
         width: 213px;
@@ -782,6 +786,10 @@ footer p {
     position: fixed;
     bottom: 100px;
     right: 20px;
+}
+
+.arrow-up {
+    display: none;
 }
 
 .arrow-up {
