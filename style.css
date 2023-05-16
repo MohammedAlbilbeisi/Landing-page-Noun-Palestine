@@ -556,11 +556,14 @@ footer p {
         display: inline;
         padding: 0px;
         margin: 0px;
-        background-color: black;
+        background-color: rgb(255 255 255);
         text-align: center;
     }
+    nav li a {
+        color: black !important;
+    }
     nav li:hover {
-        background-color: red;
+        background-color: rgb(245, 144, 144);
     }
     .Contact-us .description button {
         margin: 30px 65% !important;
@@ -629,6 +632,10 @@ footer p {
         text-align: center;
         padding-top: 16px;
     }
+    nav ul {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+    }
 }
 
 @media (max-width: 575px) {
@@ -642,7 +649,7 @@ footer p {
         margin-top: 32px;
     }
     footer p {
-        left: 35%;
+        left: 34%;
         top: 48px;
         font-size: 12px;
     }
