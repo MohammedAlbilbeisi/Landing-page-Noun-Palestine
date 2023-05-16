@@ -537,10 +537,14 @@ footer p {
 }
 
 @media (max-width: 767px) {
-    html {
-        font-family: 'Cairo', sans-serif !important;
-    }
-    body {
+    header,
+    .Our-services,
+    .Description-of-services,
+    .Our-Services-Section,
+    .features,
+    .Download-App,
+    .Any-Questions,
+    .Contact-us {
         overflow-x: hidden !important;
     }
     header .text {
