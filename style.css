@@ -539,6 +539,8 @@ footer p {
 @media (max-width: 767px) {
     html {
         font-family: 'Cairo', sans-serif !important;
+    }
+    body {
         overflow-x: hidden !important;
     }
     header .text {
