@@ -632,6 +632,9 @@ footer p {
 }
 
 @media (max-width: 575px) {
+    .Contact-us .description button {
+        margin: 30px 63.5% !important;
+    }
     header .text {
         margin-left: 24%;
     }
@@ -765,7 +768,7 @@ footer p {
     background-color: transparent !important;
     color: #ffff;
     position: fixed;
-    bottom: 120px;
+    bottom: 100px;
     right: 20px;
 }
 
