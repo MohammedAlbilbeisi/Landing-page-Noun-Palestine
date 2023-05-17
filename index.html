@@ -24,7 +24,6 @@
 
     <!-- Start  Navber -->
 
-
     <nav>
         <div class="top"></div>
         <div class="container ">
@@ -32,9 +31,7 @@
 
             <div class="row">
                 <div class="col-md-2">
-
-                    <button> تواصل معنا</button>
-
+                    <a href="#Contact-us"><button>  تواصل معنا  </button></a>
 
 
                 </div>
@@ -111,8 +108,8 @@
                     <div class="text">
                         <h4> حمل تطبيقنا نون فلسطين الان
                         </h4>
+                        <a href="#Downloadapp"><button>  حمل التطبيق  </button></a>
 
-                        <button> حمل التطبيق </button>
                     </div>
                 </div>
                 <div class="col-md-8">
@@ -486,7 +483,7 @@
 
     <!-- Start  Contact-us -->
 
-    <div class="Contact-us">
+    <div class="Contact-us" id="Contact-us">
 
         <div class="container">
 
@@ -518,18 +515,23 @@
 
                             تواصل معنا
                         </h1>
-                        <form action="">
+
+
+                        <form target="_blank" action="https://formspree.io/f/xqkojgqj" method="POST">
+
                             <label for="fname"> :الاسم</label> <br>
-                            <input type="text" id="fname" name="fname" placeholder="الاسم"> <br>
+                            <input type="text" id="fname" name="fname" placeholder="الاسم" required> <br>
 
                             <label for="email">:الايميل</label><br>
-                            <input type="email" id="email" name="email" placeholder="الايميل"><br>
+                            <input type="email" id="email" name="email" placeholder="الايميل" required><br>
 
                             <label for="message">:الرسالة</label><br>
 
-                            <textarea name="message" rows="5" cols="10">
+                            <textarea name="message" rows="5" cols="10" required>
                          </textarea>
-                            <button> إرسال</button>
+                            <button type="submit" value="Send"> إرسال</button>
+
+
                         </form>
 
 
@@ -597,4 +599,4 @@
 </body>
 
 </html>
-<!--  BY : DEV Mohammed Zeyad -->>
+<!--  BY : DEV Mohammed Zeyad -->

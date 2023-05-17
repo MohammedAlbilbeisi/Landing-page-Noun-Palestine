@@ -253,7 +253,7 @@ header button {
     text-align: right !important;
     width: 62%;
     margin-left: 37%;
-    color: #ffff;
+    color: black;
 }
 
 .Our-Services-Section .description h1 {
@@ -792,6 +792,8 @@ footer p {
     display: none;
 }
 
-.arrow-up {
-    display: none;
+input,
+textarea {
+    text-align: right;
+    direction: rtl;
 }
