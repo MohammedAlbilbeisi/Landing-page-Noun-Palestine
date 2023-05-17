@@ -253,7 +253,7 @@ header button {
     text-align: right !important;
     width: 62%;
     margin-left: 37%;
-    color: black;
+    color: black !important;
 }
 
 .Our-Services-Section .description h1 {
